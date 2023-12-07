@@ -1,0 +1,108 @@
+/* Background image styling. */
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 105, 233, 0.8), rgba(0, 105, 233, 0.8)), url(/images/bg-image.png);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    height: 12%
+}
+
+.navbar-left {
+    flex-basis: 100%;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+}
+
+.navbar-inner {
+    display: flex;
+    align-items: center;
+    padding: 45px 50px 10px 50ox;
+}
+
+.navbar-inner img {
+    margin-left: 20px;
+    width: 7%;
+    height: 7%;
+}
+
+.navbar-inner ul{
+    margin-left: 20px; 
+    z-index: 2;
+}
+
+.navbar-inner ul li{
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.navbar-inner ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    display: flex;
+    height: 88%;
+}
+
+.content-left {
+    flex-basis: 75%;
+    position: relative;
+}
+
+.game-card{
+    top: 50%;
+    right: -4%;
+    position: absolute;
+    z-index: 1;
+}
+
+.upper-text {
+    left: 15%;
+    top: 20%;
+    position: absolute;
+    color: lightblue;
+    
+}
+
+.upper-text h1{
+    font-size: 150px;
+    margin-left: 150px;
+    line-height: 90px;
+    font-style: italic;
+    opacity: .5;
+}
+
+.upper-text h2{
+    font-size: 90px;
+    margin-left: 150px;
+    line-height: 90px;
+    font-style: italic;
+    opacity: .5;
+}
+
+.upper-text h4{
+    font-size: 45px;
+    margin-left: 170px;
+    line-height: 90px;
+    font-style: italic;
+    opacity: .5;
+}
+
+.upper-text p{
+    margin-left: 180px;
+    line-height: 25px;
+}
+
+.card {
+    margin-left: 30px;
+    box-shadow: 0px 0px 30px 10px rgb(255, 255, 255);
+}
+
+.col-sm-4 a {
+    text-decoration: none;
+}
