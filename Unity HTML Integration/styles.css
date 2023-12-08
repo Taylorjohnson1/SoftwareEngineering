@@ -1,4 +1,15 @@
-/* Background image styling. */
+/*
+Name: Taylor Johnson
+Date: December 7th 2023
+Class: Software Engineering
+Professor: Marcus Gubanyi
+
+Description: A project that integrates HTML pages and Unity games. Uses a python script from the University 
+             of Illinois/NCSA Open Source License to host the Unity games on the web. Import the game as a WebGL project
+             from unity into this project.
+*/
+
+/* Background image styling. Where first impressions are made. */
 .hero {
     height: 100vh;
     background-image: linear-gradient(rgba(0, 105, 233, 0.8), rgba(0, 105, 233, 0.8)), url(/images/bg-image.png);
@@ -7,6 +18,7 @@
     font-family: sans-serif;
 }
 
+/* Styling for the navigation bar as a whole. */
 .nav-bar {
     display: flex;
     height: 12%
@@ -44,6 +56,7 @@
     color: white;
 }
 
+/* Content inside the body of the page. */
 .content {
     display: flex;
     height: 88%;
@@ -54,6 +67,7 @@
     position: relative;
 }
 
+/* Bootstrap 5 card. */
 .game-card{
     top: 50%;
     right: -4%;
@@ -61,6 +75,12 @@
     z-index: 1;
 }
 
+.card {
+    margin-left: 30px;
+    box-shadow: 0px 0px 30px 10px rgb(255, 255, 255);
+}
+
+/* Text inside of the contents of page. */
 .upper-text {
     left: 15%;
     top: 20%;
@@ -69,6 +89,7 @@
     
 }
 
+/* Text inside of the content. Designed for H1 tags. */
 .upper-text h1{
     font-size: 150px;
     margin-left: 150px;
@@ -77,6 +98,7 @@
     opacity: .5;
 }
 
+/* Text inside of the content. Designed for H2 tags. */
 .upper-text h2{
     font-size: 90px;
     margin-left: 150px;
@@ -85,6 +107,7 @@
     opacity: .5;
 }
 
+/* Text inside of the content. Designed for H4 tags. */
 .upper-text h4{
     font-size: 45px;
     margin-left: 170px;
@@ -93,15 +116,13 @@
     opacity: .5;
 }
 
+/* Text inside of the content. Designed for P tags. */
 .upper-text p{
     margin-left: 180px;
     line-height: 25px;
 }
 
-.card {
-    margin-left: 30px;
-    box-shadow: 0px 0px 30px 10px rgb(255, 255, 255);
-}
+
 
 .col-sm-4 a {
     text-decoration: none;
